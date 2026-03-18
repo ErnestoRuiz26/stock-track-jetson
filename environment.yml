@@ -1,6 +1,5 @@
 name: stock-track-jetson
 channels:
-  - pytorch
   - defaults
 dependencies:
   - python=3.14
@@ -8,4 +7,10 @@ dependencies:
   - pip:
     - numpy
     - pandas
-    
+    - torch
+    - torchvision
+    - scikit-learn
+    - matplotlib
+    - jupyter
+    - pytest
+
