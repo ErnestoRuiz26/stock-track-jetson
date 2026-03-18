@@ -1,0 +1,11 @@
+name: stock-track-jetson
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.14
+  - pip
+  - pip:
+    - numpy
+    - pandas
+    
